@@ -9,6 +9,7 @@ apt-get update
 echo "El Servidor está actualizado" 
 
 if dpkg -l | grep -q apache2 ;
+# alternativa if dpkg -s apache2 > /dev/null 2>&1; then
 then
     echo "Ya está instalado"
 else 
