@@ -12,7 +12,8 @@ REPO_NAME=$(basename $(git rev-parse --show-toplevel))
 REPO_URL=$(git remote get-url origin)
 WEB_URL="localhost"
 # Configura el token de acceso de tu bot de Discord
-DISCORD="https://discord.com/api/webhooks/1169002249939329156/7MOorDwzym-yBUs3gp0k5q7HyA42M5eYjfjpZgEwmAx1vVVcLgnlSh4TmtqZqCtbupov"
+#DISCORD="https://discord.com/api/webhooks/1169002249939329156/7MOorDwzym-yBUs3gp0k5q7HyA42M5eYjfjpZgEwmAx1vVVcLgnlSh4TmtqZqCtbupov"
+DISCORD="https://discord.com/api/webhooks/1154865920741752872/au1jkQ7v9LgQJ131qFnFqP-WWehD40poZJXRGEYUDErXHLQJ_BBszUFtVj8g3pu9bm7h"
 #colores
 LRED='\033[1;31m'
 LGREEN='\033[1;32m'
