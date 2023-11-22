@@ -147,6 +147,7 @@ echo -e "\n${LYELLOW}Instalando WEB ...${NC}"
 mv /var/www/html/index.html /var/www/html/index.html.bkp
 cp -r $repo/app-295devops-travel/* /var/www/html
 sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
+
 echo "====================================="
 ### reload
 systemctl reload apache2
